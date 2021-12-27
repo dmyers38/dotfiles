@@ -128,6 +128,7 @@ if has('langmap') && exists('+langremap')
   set nolangremap
 endif
 
+" My additions
 colorscheme koehler
 set number
 set hlsearch
