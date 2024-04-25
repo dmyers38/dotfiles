@@ -15,6 +15,8 @@ set history=200 		" Keep 200 Lines of Command Line History
 syntax on 			" Syntax Highlighting
 colorscheme koehler 		" Set Color Scheme
 filetype plugin indent on 	" See :h filetype-indent-on and filetype-plugin-on
+command DMFormat set tabstop=8 shiftwidth=8 noexpandtab
+command BTFormat set tabstop=3 shiftwidth=3 expandtab
 " ==============================================================================
 
 " ==============================================================================
